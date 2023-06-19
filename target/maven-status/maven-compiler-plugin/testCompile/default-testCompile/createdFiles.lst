@@ -1,0 +1,13 @@
+Pages\ForgotPasswordPage.class
+Tests\HomePageTest.class
+Pages\StudentDirectory.class
+Tests\BSignInTest.class
+Pages\HomePage.class
+Pages\SignInPage.class
+Tests\ApiDeleteUserTest.class
+Tests\BaseTest.class
+Pages\CoursesPage.class
+Pages\SignUpPage.class
+Tests\ASignUpTest.class
+Tests\ForgotPasswordTest.class
+Tests\StudentDirectoryTest.class

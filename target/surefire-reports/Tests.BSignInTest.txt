@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: Tests.BSignInTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 67.896 s <<< FAILURE! - in Tests.BSignInTest
+authorisationWiThRoleStudentNotValidPassword  Time elapsed: 8.578 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message login-error d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209904118.5.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209904118.5.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+	at Tests.BSignInTest.authorisationWiThRoleStudentNotValidPassword(BSignInTest.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [818c11128a67d4828fcc6b27cfac6dfc, findElement {using=xpath, value=//div[@class='error-message login-error d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61796/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 818c11128a67d4828fcc6b27cfac6dfc
+	at Tests.BSignInTest.authorisationWiThRoleStudentNotValidPassword(BSignInTest.java:20)
+
+authorisationWiThRoleTeacherNotValidPassword  Time elapsed: 8.646 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message login-error d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209918435.6.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209918435.6.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+	at Tests.BSignInTest.authorisationWiThRoleTeacherNotValidPassword(BSignInTest.java:61)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e419bcc505688134f2fd43287d3e746c, findElement {using=xpath, value=//div[@class='error-message login-error d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61887/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e419bcc505688134f2fd43287d3e746c
+	at Tests.BSignInTest.authorisationWiThRoleTeacherNotValidPassword(BSignInTest.java:61)
+
+authorisationWiThRoleTeacherNotValidEmail  Time elapsed: 8.966 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message login-error d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209934918.7.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209934918.7.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+	at Tests.BSignInTest.authorisationWiThRoleTeacherNotValidEmail(BSignInTest.java:68)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e583e63d80b8e8c6a8a6f31c81a7ec77, findElement {using=xpath, value=//div[@class='error-message login-error d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e583e63d80b8e8c6a8a6f31c81a7ec77
+	at Tests.BSignInTest.authorisationWiThRoleTeacherNotValidEmail(BSignInTest.java:68)
+
+authorisationWiThRoleStudentNotValidEmail  Time elapsed: 8.763 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message login-error d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209957255.8.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCode/build/reports/tests/1687209957255.8.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+	at Tests.BSignInTest.authorisationWiThRoleStudentNotValidEmail(BSignInTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message login-error d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9019252c70dfe573566ad0010b0c52c3, findElement {using=xpath, value=//div[@class='error-message login-error d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62121/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9019252c70dfe573566ad0010b0c52c3
+	at Tests.BSignInTest.authorisationWiThRoleStudentNotValidEmail(BSignInTest.java:27)
+
